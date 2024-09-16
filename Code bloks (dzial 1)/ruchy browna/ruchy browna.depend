@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1698995701 source:c:\users\uczen\desktop\nowy folder\ruchy browna\main.cpp
+	<iostream>
+	<math.h>
+	<time.h>
+	<stdlib.h>
+	<fstream>
+

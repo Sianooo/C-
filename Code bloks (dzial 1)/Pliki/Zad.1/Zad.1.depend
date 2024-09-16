@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1697783464 source:c:\users\psanowski\desktop\pliki\zad.1\main.cpp
+	<iostream>
+	<fstream>
+

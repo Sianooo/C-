@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1698389865 source:c:\users\psanowski\desktop\liczby pseudolosowe\liczbapi\main.cpp
+	<iostream>
+	<time.h>
+	<stdlib.h>
+

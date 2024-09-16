@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1700208434 source:c:\users\psanowski\desktop\liczby pseudolosowe\zad3\main.cpp
+	<iostream>
+	<stdlib.h>
+	<time.h>
+	<fstream>
+
