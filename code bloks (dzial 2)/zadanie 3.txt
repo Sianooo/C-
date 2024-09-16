@@ -1,0 +1,29 @@
+
+#include <iostream>
+#include <time.h>
+#include <stdlib.h>
+
+using namespace std;
+//wylosuj 10 liczb calkowitych od 10 to 50 i obok kazdej z nich napisz jej postac w systemie binarnym
+
+int main()
+
+
+
+ {
+    srand(time(NULL));
+
+  
+    for (int i = 0; i < 10; i++) {
+        int liczba = rand() % 41 + 10;  
+        cout << "Liczba " << liczba << " w systemie binarnym: ";
+        for (int j = 5; j >= 0; --j) {
+            cout << ((liczba >> j) & 1);
+        }
+
+        cout << endl;
+    }
+
+
+    return 0;
+}

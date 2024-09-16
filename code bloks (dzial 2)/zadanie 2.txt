@@ -1,0 +1,73 @@
+#include <iostream>
+#include <fstream>
+
+using namespace std;
+
+void sito(int n, bool tab[])
+{
+    for (int i = 0; i <= n; i++)
+    {
+        tab[i] = true;
+    }
+
+    for (int k = 2; k * k <= n; k++)
+    {
+        for (int i = k + 1; i <= n; i++)
+        {
+            if (i % k == 0)
+            {
+                tab[i] = false;
+            }
+        }
+    }
+}
+
+int main()
+{
+    int N;
+    cout << "Podaj wartość N: ";
+    cin >> N;
+
+    bool czyPierwsza[N + 1];
+    sito(N, czyPierwsza);
+
+    int licznikPierwszych = 0;
+
+
+    for (int i = 2; i <= N; i++)
+    {
+        if (czyPierwsza[i])
+        {
+            licznikPierwszych++;
+        }
+    }
+
+    if (licznikPierwszych % 2 == 0)
+    {
+   
+        ofstream plikWyjsciowy("liczby_pierwsze.txt");
+        for (int i = 2; i <= N; i++)
+        {
+            if (czyPierwsza[i])
+            {
+                cout << i << " ";
+                plikWyjsciowy << i << " ";
+            }
+        }
+        plikWyjsciowy.close();
+    }
+    else
+    {
+
+        cout << "Liczby pierwsze: ";
+        for (int i = 2; i <= N; i++)
+        {
+            if (czyPierwsza[i])
+            {
+                cout << i << " ";
+            }
+        }
+    }
+
+    return 0;
+}

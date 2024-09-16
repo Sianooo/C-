@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1702022750 source:c:\users\uczen\desktop\selectsort\selectsort\main.cpp
+	<iostream>
+	<time.h>
+	<stdlib.h>
+
