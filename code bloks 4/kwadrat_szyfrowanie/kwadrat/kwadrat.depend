@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1715322103 source:c:\users\uczen\desktop\kwadrat_szyfrowanie\kwadrat\main.cpp
+	<iostream>
+	<math.h>
+
