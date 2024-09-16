@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1712300171 source:c:\users\egzamin\desktop\egzamin\egzamin\main.cpp
+	<iostream>
+	<fstream>
+

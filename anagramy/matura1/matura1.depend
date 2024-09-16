@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1711094483 source:c:\users\egzamin\desktop\anagramy\matura1\main.cpp
+	<iostream>
+	<fstream>
+
